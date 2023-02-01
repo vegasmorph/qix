@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>The Fudders</title>
+    <style> .sidebar{font-weight:60px; float:left; font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+        #canvas{float:left;}
+        .procent{font-size:80px; color:#0af774 }
+        .score{font-size:50px ;  }
+</style>
+   
+</head>
+
+<body onload="init()" onkeydown="moveneon(event)">
+    
+    <p style="color:#FFFFFF">score:
+         <span class="score">0%</span>
+        </p>
+    <canvas id="canvas" height="1250" width="1900"></canvas>
+    <script src="js/luncs.js"></script>
+    <script src="jquery-1.7.2.min.js"></script>
+    <button onClick="window.location.reload();">Burn Again</button>
+    <body style="background-color:#000000;">
+        <script>
+
+            setInterval(mainLoop,33);
+    
+        </script>
+        <div class="sidebar" >
+            <div class="procent"  >
+                     Burn it all!!
+            </div>
+            <span class="score" > </span>
+            <div class="time"  >
+                     TIME:
+            </div>
+            <span class="TIME" > </span>
+         </div>
+    
+</body>
+
+</html>
