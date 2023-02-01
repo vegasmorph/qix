@@ -180,7 +180,7 @@ function moveneon(ev) {
     gneon.currLocation = nextLocation;
     checkVictory();
     drawBoard(gtable);
-    window.alert("BURN!!!");
+    
 }
 
 function closeArea(exitIdxs) {
